@@ -34,6 +34,16 @@ HTML = f"""<!DOCTYPE html>
     "@context": "https://schema.org",
     "@graph": [
       {{
+        "@type": "WebPage",
+        "@id": "{SITE_URL}#webpage",
+        "url": "{SITE_URL}",
+        "name": "Estimation immobiliere Bordeaux \u0026 Le Bouscat - Guillaume Berge",
+        "description": "Estimation immobiliere gratuite a Bordeaux et Le Bouscat avec Guillaume Berge, agent Absolute Habitat. Reportage drone professionnel.",
+        "datePublished": "2026-04-09",
+        "dateModified": "{LAST_MOD}",
+        "about": {{"@id": "{SITE_URL}#guillaume-berge"}}
+      }},
+      {{
         "@type": "Person",
         "@id": "{SITE_URL}#guillaume-berge",
         "name": "Guillaume Berge",
@@ -189,7 +199,7 @@ HTML = f"""<!DOCTYPE html>
 <body>
 
 <h1>Estimation immobilière à Bordeaux &amp; Le Bouscat</h1>
-
+<div class="direct-answer"><p><strong>Reponse directe :</strong> Guillaume Berge, agent immobilier Absolute Habitat au Bouscat (33110), propose une estimation immobiliere gratuite avec reportage par drone professionnel sur Bordeaux Metropole, Le Bouscat, Merignac, Pessac, Eysines, Bruges et Cauderan. Contact : 07.82.42.30.47.</p></div>
 <div class="trust">✅ <strong>Guillaume Berge</strong> — Agent immobilier Absolute Habitat au Bouscat (33110) — Estimation gratuite — Drone professionnel</div>
 
 <p>Guillaume Berge est agent immobilier Absolute Habitat, spécialisé dans la vente et l'achat de maisons et appartements à Bordeaux centre, Le Bouscat, Mérignac, Pessac, Eysines, Bruges et Caudéran, au cœur de Bordeaux Métropole (Gironde, Nouvelle-Aquitaine).</p>
