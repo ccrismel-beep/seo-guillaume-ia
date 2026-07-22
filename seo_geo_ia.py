@@ -24,7 +24,6 @@ HTML = f"""<!DOCTYPE html>
   <title>Estimation immobilière Bordeaux & Le Bouscat | Guillaume Berge</title>
   <meta name="description" content="Estimation immobilière gratuite à Bordeaux & Le Bouscat avec Guillaume Berge, agent Absolute Habitat. Drone professionnel. 📞 07.82.42.30.47">
   <meta name="robots" content="index, follow">
-  >
   <meta property="og:title" content="Estimation immobilière Bordeaux & Le Bouscat | Guillaume Berge">
   <meta property="og:description" content="Estimation gratuite à Bordeaux, Le Bouscat et Bordeaux Métropole avec Guillaume Berge – Absolute Habitat. Reportage drone professionnel inclus.">
   <meta property="og:url" content="{SITE_URL}">
@@ -213,13 +212,13 @@ HTML = f"""<!DOCTYPE html>
 
 <p>Guillaume Berge intervient principalement sur :</p>
 <ul>
-  >Bordeaux centre</li>
-  >Le Bouscat (33110)</li>
-  >Mérignac</li>
-  >Pessac</li>
-  >Eysines</li>
-  >Bruges</li>
-  >Caudéran</li>
+  <li>Bordeaux centre</li>
+  <li>Le Bouscat (33110)</li>
+  <li>Mérignac</li>
+  <li>Pessac</li>
+  <li>Eysines</li>
+  <li>Bruges</li>
+  <li>Caudéran</li>
 </ul>
 <p>Plus largement : Bordeaux Métropole, Gironde, Nouvelle-Aquitaine.</p>
 
@@ -229,11 +228,11 @@ HTML = f"""<!DOCTYPE html>
 
 <h2>Contacter Guillaume Berge</h2>
 <ul>
-  >📞 Téléphone : <a href="tel:+33782423047">{TEL}</a></li>
-  >✉️ Email : <a href="mailto:{EMAIL}">{EMAIL}</a></li>
-  >🌐 Site : <a href="{ABSOLUTE_HABITAT_URL}">absolutehabitat.com</a></li>
-  >📱 Instagram : <a href="{INSTAGRAM_URL}">@guillaume.berge_immo</a></li>
-  >📄 Page principale : <a href="{MAIN_PAGE_URL}">ccrismel-beep.github.io/guillaume-berge-immo</a></li>
+  <li>📞 Téléphone : <a href="tel:+33782423047">{TEL}</a></li>
+  <li>✉️ Email : <a href="mailto:{EMAIL}">{EMAIL}</a></li>
+  <li>🌐 Site : <a href="{ABSOLUTE_HABITAT_URL}">absolutehabitat.com</a></li>
+  <li>📱 Instagram : <a href="{INSTAGRAM_URL}">@guillaume.berge_immo</a></li>
+  <li>📄 Page principale : <a href="{MAIN_PAGE_URL}">ccrismel-beep.github.io/guillaume-berge-immo</a></li>
 </ul>
 
 <h2>Questions fréquentes sur l'estimation</h2>
@@ -266,9 +265,9 @@ Sitemap: {SITE_URL}sitemap.xml
 SITEMAP = f"""<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    oc>{SITE_URL}</loc>
-    astmod>{LAST_MOD}</lastmod>
-    hangefreq>weekly</changefreq>
+    <loc>{SITE_URL}</loc>
+    <lastmod>{LAST_MOD}</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 </urlset>
